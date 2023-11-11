@@ -1,0 +1,31 @@
+Algoritmo "Bhaskara"
+
+Var
+
+   Ca, Cb, Cc, delta, x1, x2 : real
+
+Inicio
+
+   escreva("Coeficiente a: ")
+   leia(Ca)
+   escreva("Coeficiente b: ")
+   leia(Cb)
+   escreva("Coeficiente c: ")
+   leia(Cc)
+
+   delta <- Exp(Cb, 2) - 4 * (Ca) * (Cc)
+
+   se delta < 0 entao
+     escreval("Esta equação não possui raizes reais")
+   senao
+      se Ca = 0 entao
+         escreval("Equação incompleta")
+      senao
+         x1 <- (-Cb + RaizQ(delta)) / (2 * Ca)
+         x2 <- (-Cb - RaizQ(delta)) / (2 * Ca)
+         escreval("X1 = ", x1:1:4)
+         escreval("X2 = ", x2:1:4)
+      fimse
+   fimse
+   FIMALGORITMO
+   
