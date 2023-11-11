@@ -28,4 +28,8 @@ Inicio
       fimse
    fimse
    FIMALGORITMO
+
+*******************  DEFINIÇÃO DO ALGORITMO  *****************
+
+Algoritmo recebe os valores dos coeficientes A, B e C e realiza o cálculo da equação utilizando a fórmula de Bhaskara.
    
