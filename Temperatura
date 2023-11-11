@@ -1,0 +1,56 @@
+Algoritmo "temperatura"
+
+
+Var
+
+  escala : caractere
+  temperatura, conversao : real
+
+Inicio
+
+   escreva("Voce vai digitar a temperatura em qual escala (C/F)? ")
+   leia(escala)
+   
+   se escala = "F" entao
+      escreva("Digite a temperatura em Fahrenheit: ")
+      leia(temperatura)
+      conversao <- 5/9 * (temperatura - 32)
+   senao
+      escreva("Digite a temperatura em Celsius: ")
+      leia(temperatura)
+      conversao <- 9 *  temperatura / 5 + 32
+
+   fimse
+
+
+fimalgoritmo
+
+---------------------------------------------------------
+
+Algoritmo "temperatura"
+
+
+Var
+
+   unidade : caractere
+  C, F : real
+
+Inicio
+
+   escreva("Voce vai digitar a temperatura em qual escala (C/F)? ")
+   leia(unidade)
+   
+   se unidade = "F" entao
+      escreva("Digite a temperatura em Fahrenheit: ")
+      leia(F)
+      C <- 5/9 * (F - 32)
+      escreval("Temperatura equivalente em Celsius: ", C:1:2)
+   senao
+      escreva("Digite a temperatura em Celsius: ")
+      leia(C)
+      F <- 9 *  C / 5 + 32
+      escreval("Temperatura equivalente em Fahrenheit: ", F:1:2)
+   fimse
+
+
+fimalgoritmo
