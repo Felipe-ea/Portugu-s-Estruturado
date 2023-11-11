@@ -33,3 +33,7 @@ Inicio
       escreval(vet[i])
    fimpara
 Fimalgoritmo
+
+*******************  DEFINIÇÃO DO ALGORITMO  *****************
+
+Algoritmo percorre um vetor e apresenta o maior elemento de cada linha.
