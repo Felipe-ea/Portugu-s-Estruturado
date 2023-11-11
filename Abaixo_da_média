@@ -1,0 +1,33 @@
+Algoritmo "AbaixoDaMedia"
+
+
+Var
+
+   N, i  : inteiro
+   A : vetor [0..9] de real
+   media : real
+Inicio
+
+  escreva("Quantos elementos vai ter o vetor? ")
+  leia(N)
+
+  para i de 0 ate N-1 faca
+     escreva("Digite um numero: ")
+     leia(A[i])
+  fimpara
+  
+  media <- 0
+  para i de 0 ate N-1 faca
+     media <- media + A[i]
+  fimpara
+  media <- media / N
+  
+  escreval
+  escreval("MEDIA DO VETOR = ", media:1:3)
+  escreval("ELEMENTOS ABAIXO DA MEDIA: ")
+  para i de 0 ate N-1 faca
+     se A[i] < media entao
+        escreval(A[i]:1:1)
+      fimse
+  fimpara
+Fimalgoritmo
