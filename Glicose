@@ -1,0 +1,56 @@
+Algoritmo "Glicose"
+
+
+Var
+
+   glicose : real
+   classificacao : caractere
+
+
+Inicio
+
+   escreva("Digite o nivel de glicose: ")
+   leia(glicose)
+
+   se (glicose > 100) e (glicose <= 140) entao
+      classificacao <- "Elevado"
+   senao
+      se glicose <= 100 entao
+         classificacao <- "Normal"
+      senao
+         classificacao <- "Diabetes"1
+      fimse
+   fimse
+
+   escreval("Classificação: ", classificacao)
+
+
+
+
+Fimalgoritmo
+
+-----------------------------------------------
+
+Algoritmo "Glicose"
+
+
+Var
+
+   glicose : real
+   
+Inicio
+
+   escreva("Digite o nivel de glicose: ")
+   leia(glicose)
+
+   se glicose <= 100 entao
+      escreval("Classificação: Normal")
+   senao
+      se glicose <= 140 entao
+         escreval("Classificação: Elevada")
+      senao
+         escreval("Classificação: Diabetes")
+      fimse
+   fimse
+
+Fimalgoritmo
