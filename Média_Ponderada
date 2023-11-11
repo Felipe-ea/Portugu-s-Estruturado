@@ -1,0 +1,22 @@
+Algoritmo "MediaPonderada"
+
+Var
+
+   N, i : inteiro
+   n1, n2, n3, media : real
+Inicio
+
+
+    escreva("Quantos casos voce vai digitar? ")
+    leia(N)
+
+    repita i
+       escreval("Digite tres numeros: ")
+       leia(n1)
+       leia(n2)
+       leia(n3)
+       media <- ((n1 * 2) + (n2 * 3) + (n3 * 5)) / 10
+       escreval("MEDIA = ", media:3:1)
+       i <- i + 1
+    ate i = N
+Fimalgoritmo
