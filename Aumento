@@ -69,3 +69,8 @@ Inicio
     escreval("Porcentagem = ", porcentagem:1, " %")
 
 Fimalgoritmo
+
+*******************  DEFINIÇÃO DO ALGORITMO  *****************
+
+Algoritmo deverá receber o salário do funcionário e calcular o seu aumento de acordo com uma porcentagem pré-definida
+apresentando o novo salário, percentual de aumento e aumento.
