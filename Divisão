@@ -1,0 +1,26 @@
+Algoritmo "Divisao"
+
+Var
+
+   N, i, numerador, denominador : inteiro
+  divisao : real
+Inicio
+
+
+    escreva("Quantos casos voce vai digitar? ")
+    leia(N)
+
+    repita i
+       escreva("Entre com o numerador: ")
+       leia(numerador)
+       escreva("Entre com o denominador: ")
+       leia(denominador)
+          se denominador <> 0 entao
+             divisao <- numerador / denominador
+             escreval("DIVISAO = ", divisao:1:2)
+          senao
+             escreval("DIVISAO IMPOSSIVEL")
+          fimse
+          i <- i + 1
+    ate i = N
+Fimalgoritmo
