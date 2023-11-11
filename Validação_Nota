@@ -1,0 +1,28 @@
+Algoritmo "validacao nota"
+
+Var
+
+   Pn, Sn, media  real
+   
+Inicio
+
+   escreva(Digite a primeira nota )
+   leia(Pn)
+
+   enquanto (Pn  0) ou (Pn  10) faca
+      escreva(Valor invalido! Tente novamente )
+      leia(Pn)
+   fimenquanto
+   
+   escreva(Digite a segunda nota )
+   leia(Sn)
+
+   enquanto (Sn  0) ou (Sn  10) faca
+      escreva(Valor invalido! Tente novamente )
+      leia(Sn)
+   fimenquanto
+   
+   media - (Pn + Sn)  2
+   escreval(MEDIA = , media12)
+
+Fimalgoritmo
