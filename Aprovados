@@ -30,3 +30,7 @@ Inicio
      fimse
   fimpara
 Fimalgoritmo
+
+*******************  DEFINIÇÃO DO ALGORITMO  *****************
+
+Algoritmo deverá receber nome e nota dos alunos e indicar quais alunos foram aprovados.
