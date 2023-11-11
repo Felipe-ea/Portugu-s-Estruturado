@@ -1,0 +1,39 @@
+Algoritmo "MediaPares"
+
+
+Var
+
+   N, i, Qp  : inteiro
+   vet : vetor [0..99] de inteiro
+   media : real
+Inicio
+
+  escreva("Quantos elementos vai ter o vetor? ")
+  leia(N)
+
+  para i de 0 ate N-1 faca
+     escreva("Digite um numero: ")
+     leia(vet[i])
+  fimpara
+
+  media <- 0
+  Qp <- 0
+  para i de 0 ate N-1 faca
+     se vet[i] mod 2 = 0 entao
+        media <- media + vet[i]
+        Qp <- Qp + 1
+     fimse
+  fimpara
+
+  se Qp = 0 entao
+     escreval("NENHUM NUMERO PAR")
+  senao
+    media <- media / Qp
+    escreval("Media dos pares = ", media:1:1)
+  fimse
+  
+  
+  
+  
+  
+Fimalgoritmo
