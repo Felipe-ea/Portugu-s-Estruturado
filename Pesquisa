@@ -1,0 +1,46 @@
+Algoritmo "Fatorial"
+
+Var
+
+   C, R, S, N, T, i, Q : inteiro
+   ti : caractere
+   Pc, Pr, Ps : real
+Inicio
+
+
+    escreva("Quantos casos de teste serao digitados: ")
+    leia(N)
+
+    T <- 0
+
+    para i de 1 ate N faca
+       escreva("Quantidade de cobaias: ")
+       leia(Q)
+       escreva("Tipo de cobaia: ")
+       leia(ti)
+       escolha (ti)
+       caso "C"
+          C <- C + Q
+       caso "R"
+          R <- R + Q
+       caso "S"
+          S <- S + Q
+       fimescolha
+       T <- T + Q
+    fimpara
+    
+    Pc <- (C / T) * 100
+    Pr <- (R / T) * 100
+    Ps <- (S / T) * 100
+    escreval
+    escreval("RELATORIO FINAL: ")
+    escreval("Total:", T, " cobaias")
+    escreval("Total de coelhos: ", C)
+    escreval("Total de ratos: ", R)
+    escreval("Total de sapos: ", S)
+    escreval("percentual de coelhos ", Pc:1:2)
+    escreval("percentual de ratos ", Pr:1:2)
+    escreval("percentual de sapos ", Ps:1:2)
+    
+    
+Fimalgoritmo
