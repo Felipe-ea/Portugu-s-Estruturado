@@ -1,0 +1,20 @@
+Algoritmo "multiplos"
+// para dois numeros serem multiplos o resto da divisao entre eles (mod) deve ser 0
+Var
+
+   a, b : inteiro
+   
+Inicio
+
+   escreval("Digite dois numeros inteiros: ")
+   leia(a)
+   leia(b)
+
+   se (a mod b = 0) ou (b mod a = 0) entao
+      escreval("São multiplos")
+   senao
+      escreval("Não são multiplos")
+    fimse
+
+
+Fimalgoritmo
