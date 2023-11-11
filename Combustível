@@ -31,3 +31,7 @@ diesel <- 0
 
 Fimalgoritmo
 
+*******************  DEFINIÇÃO DO ALGORITMO  *****************
+
+Algoritmo identifica quantas vezes o usuário escolheu determinadas opções.
+
