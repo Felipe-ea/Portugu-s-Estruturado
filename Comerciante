@@ -63,10 +63,10 @@ Inicio
   
   escreval("Valor total de compra: ", totalCompra:1:2)
   escreval("Valor total de venda: ", totalVenda:1:2)
-  escreval("Lucro total: ", lucro:1:2)
-  
-  
-  
-  
+  escreval("Lucro total: ", lucro:1:2) 
 
 Fimalgoritmo
+
+*******************  DEFINIÇÃO DO ALGORITMO  *****************
+
+Algoritmo cadastra produtos e indica, lucro baseado no preço de custo e de venda.
