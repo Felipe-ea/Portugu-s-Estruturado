@@ -21,6 +21,10 @@ Inicio
      leia(B[i])
   fimpara
 
+*******************  DEFINIÇÃO DO ALGORITMO  *****************
+
+Algoritmo realiza a soma de dois vetores digitados pelo usuário
+
   para i de 0 ate N-1 faca
      C[i] <- A[i] + B[i]
   fimpara
